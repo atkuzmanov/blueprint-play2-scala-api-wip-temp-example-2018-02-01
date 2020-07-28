@@ -1,0 +1,14 @@
+# Routes
+# This file defines all application rest api http/https routes (high priority routes first).
+# ~~~~
+
+GET           /status                                                      example.play2.scala_app.endpoints.StatusEndpoints.status
+
+### CRUD = C.R.U.D. = Create Read Update Delete
+POST          /tags/posts                                                  example.play2.scala_app.endpoints.ExampleAbstractObjectEndpoints.createPost()
+GET           /posts/$postId<[0-9a-fA-F]{24}>                              example.play2.scala_app.endpoints.ExampleAbstractObjectEndpoints.exampleRetrieveByAbstrObjId(postId: String, showDeleted: Boolean ?= false)
+GET           /tags/:tagId/posts                                           example.play2.scala_app.endpoints.ExampleAbstractObjectEndpoints.listByTagId(tagId: String, until: Option[Long], limit: Option[Int], status: List[String] ?= Nil)
+PUT           /tags/posts/$postId<[0-9a-fA-F]{24}>                         example.play2.scala_app.endpoints.ExampleAbstractObjectEndpoints.updatePost(postId: String)
+DELETE        /tags/posts/$postId<[0-9a-fA-F]{24}>                         example.play2.scala_app.endpoints.ExampleAbstractObjectEndpoints.deletePost(postId: String)
+
+

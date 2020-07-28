@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaSbtSettings">
+    <option name="customLauncherPath" value="/usr/local/Cellar/sbt/0.13.8/libexec/sbt-launch.jar" />
+    <option name="linkedExternalProjectsSettings">
+      <SbtProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="jdk" value="1.7" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/project" />
+          </set>
+        </option>
+        <option name="resolveClassifiers" value="true" />
+        <option name="resolveSbtClassifiers" value="true" />
+        <option name="sbtVersion" value="0.13.5" />
+        <option name="useAutoImport" value="true" />
+        <option name="useOurOwnAutoImport" value="true" />
+      </SbtProjectSettings>
+    </option>
+    <option name="vmParameters" value="-XX:PermSize=256M -XX:MaxPermSize=384M -Xms256M -Xmx1280M -XX:+CMSClassUnloadingEnabled -Djavax.net.ssl.trustStore=/Users/kuzmaa01/Documents/SC/certs/jssecacerts -Djavax.net.ssl.trustStorePassword=examplePassword -Djavax.net.ssl.keyStore=/Users/kuzmaa01/Documents/SC/certs/example.certificate.p12 -Djavax.net.ssl.keyStorePassword=examplePassword -Djavax.net.ssl.keyStoreType=PKCS12 -Dhttp.proxyHost=www-example.proxy.com -Dhttp.proxyPort=80 -Dhttps.proxyHost=www-example.proxy.com -Dhttps.proxyPort=80 -Dhttp.nonProxyHosts=localhost|192.168.0.1|127.0.0.1|0.0.0.0 -Dhttps.nonProxyHosts=localhost|192.168.0.1|127.0.0.1|0.0.0.0 -Dfile.encoding=UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: com.github.tomakehurst:wiremock:1.46:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.github.tomakehurst/wiremock/jars/wiremock-1.46.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.github.tomakehurst/wiremock/srcs/wiremock-1.46-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
